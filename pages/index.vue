@@ -49,7 +49,7 @@ export default {
           this.$router.push("/user");
         })
         .finally(() => {
-          this.loaging = false;
+          this.loading = false;
         });
     }
   }
